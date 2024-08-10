@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.miner-status, .mining-info {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#start-miner {
+    background-color: #28a745;
+    color: white;
+}
+
+#stop-miner {
+    background-color: #dc3545;
+    color: white;
+}
